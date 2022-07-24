@@ -1,7 +1,7 @@
-import { Design } from './core/design';
+import { Product } from './core/product';
 import { Size } from './core/size';
 
-export const Designs: Design[]= [
+export const PRODUCTS: Product[]= [
     {
         id: 1,
         name: 'Shoe',
@@ -11,10 +11,10 @@ export const Designs: Design[]= [
             '../assets/shoes/Lace-up-Sneakers-NAVY-505479330.jpg'
         ],
         price: 200,
-        colours: [
-            {name: 'BLACK'},
-            {name: 'WHITE'},
-            {name: 'NAVY'}
+        designs: [
+            {colour: 'BLACK'},
+            {colour: 'WHITE'},
+            {colour: 'NAVY'}
         ],
         sizes: [Size.EIGHT, Size.NINE, Size.TEN, Size.ELEVEN]
     },
@@ -27,10 +27,10 @@ export const Designs: Design[]= [
             '../assets/flops/Flip-Flops-NAVY-506214512.jpg'
         ],
         price: 100,
-        colours: [
-            {name: 'BLACK'},
-            {name: 'KHAKI'},
-            {name: 'NAVY'}
+        designs: [
+            {colour: 'BLACK'},
+            {colour: 'KHAKI'},
+            {colour: 'NAVY'}
         ],
         sizes: [Size.EIGHT, Size.NINE, Size.TEN, Size.ELEVEN]
     }

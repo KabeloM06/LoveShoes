@@ -2,7 +2,7 @@ import { Design } from "./design";
 import { Size } from "./size";
 
 export interface Product {
-    id: string;
+    id: number;
     name: string;
     imageUrls: string[];
     price: number;

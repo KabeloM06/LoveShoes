@@ -1,4 +1,4 @@
 export interface Design{
-    name: string;
+    //name: string;
     colour: string;
 }
